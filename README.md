@@ -1,4 +1,6 @@
-# Fake Job Posting Detection with Human-in-the-Loop Decision Layer
+# TrustGuard AI
+
+## Fake Job Posting Detection with Human-in-the-Loop Decision Layer
 
 This project demonstrates a two-stage machine learning system for detecting fraudulent job postings, enhanced with a decision layer that determines when a model’s prediction should be trusted and when human review is required.
 
@@ -114,5 +116,5 @@ This simulates a real deployment scenario.
 
 ---
 
-## Repository Structure
+
 

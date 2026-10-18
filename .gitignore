@@ -1,0 +1,17 @@
+# Python environments and generated files
+.venv/
+.python/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node dependencies and generated files
+frontend/node_modules/
+frontend/.npm-cache/
+frontend/dist/
+
+# Local configuration and diagnostics
+.env
+frontend/.env
+*.log
+npm-debug.log*

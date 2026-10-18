@@ -1,0 +1,23 @@
+# Use Python 3.12 for compatibility with the full dependency set.
+# Web application and model inference
+streamlit==1.66.0
+pandas==2.3.3
+numpy==2.3.5
+joblib==1.6.0
+scikit-learn==1.9.1
+xgboost==3.4.1
+
+# FastAPI backend
+fastapi==0.115.12
+pydantic==2.10.6
+uvicorn[standard]==0.34.0
+httpx==0.28.1
+pytest==8.3.5
+
+# Notebook training, visualization, and data profiling
+matplotlib==3.10.0
+ydata-profiling==4.18.4
+# ydata-profiling imports pkg_resources, provided by setuptools before 81.
+setuptools==80.9.0
+notebook==7.6.3
+ipykernel==7.4.0
